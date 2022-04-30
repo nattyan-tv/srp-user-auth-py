@@ -1,11 +1,8 @@
 import boto3
 import os
 
-from dotenv import load_dotenv
 from srp import CognitoSRP
 
-
-load_dotenv('.env')
 
 cognito_idp = boto3.client('cognito-idp')
 
@@ -53,6 +50,7 @@ def main():
     )
     response = srp.authenticate_user()  # これだけで良い
     return response['AuthenticationResult']
+
 
 if __name__ == '__main__':
     # どっちも同じ
