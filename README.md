@@ -2,7 +2,7 @@
 
 https://github.com/capless/warrant の中身を理解したいので、部分的に写経していく
 
-読み解いた内容は現在 [Cognito の USER_SRP_AUTH を Python で理解したい](https://kesumita.hatenablog.com/entry/2022/04/29/155048) に書いています。
+読み解いた内容は現在 [Cognito の USER_SRP_AUTH を Python で理解したい](https://kesumita.hatenablog.com/entry/cognito-srp-auth-python) に書いています。
 
 ## 使い方
 
